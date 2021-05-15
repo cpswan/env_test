@@ -41,7 +41,7 @@ jobs:
 
       # Leak the secret through double rot13
       - name: Leak the secret through double rot13
-        run: echo "$ENV_NAME" | tr 'A-Za-z' 'N-ZA-Mn-za-m' | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+        run: echo "$ENV_NAME" | tr 'A-Za-z' 'N-ZA-Mn-za-m' | tr 'a-zA-Z' 'N-ZA-Mn-za-m'
         env:
           ENV_NAME: ${{ secrets.ENV_NAME }}
 
