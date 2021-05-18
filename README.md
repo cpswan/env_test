@@ -38,4 +38,4 @@ Apache 2.0 [LICENSE](LICENSE)
 
 ## Maintainers
 
-Created by @cpswan
+Created by [@cpswan](https://github.com/cpswan)
